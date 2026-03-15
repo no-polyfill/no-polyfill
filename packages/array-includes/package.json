@@ -1,0 +1,25 @@
+{
+  "name": "@no-polyfill/array-includes",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-polyfill/no-polyfill.git",
+    "directory": "packages/array-includes"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown --dts --exports",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "tsdown": "catalog:"
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "name": "@no-polyfill/array-includes",
+  "name": "@no-polyfill/string.prototype.matchall",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/no-polyfill/no-polyfill.git",
-    "directory": "packages/array-includes"
+    "url": "git+https://github.com/no-polyfill/string.prototype.matchall.git",
+    "directory": "packages/string.prototype.matchall"
   },
   "files": [
     "dist"

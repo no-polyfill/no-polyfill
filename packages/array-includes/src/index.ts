@@ -1,1 +1,5 @@
-export default Array.prototype.includes as typeof Array.prototype.includes;
+export default (
+  arr: Array<any>,
+  searchElement: any,
+  fromIndex?: number | undefined,
+): boolean => arr.includes(searchElement, fromIndex);

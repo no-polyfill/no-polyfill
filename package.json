@@ -5,9 +5,10 @@
       "packages/*"
     ],
     "catalog": {
-      "tsdown": "^0.21.2"
+      "tsdown": "^0.21.7"
     }
   },
+  "type": "module",
   "scripts": {
     "u": "bun format ; bun lint ; bun run build",
     "format": "oxfmt",
@@ -15,8 +16,10 @@
     "build": "bun run --filter='*' build"
   },
   "devDependencies": {
-    "oxfmt": "^0.40.0",
-    "oxlint": "^1.54.0",
-    "typescript": "^5.9.3"
+    "@gameroman/config": "^0.0.5",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "oxlint-tsgolint": "^0.18.1",
+    "typescript": "^6.0.2"
   }
 }

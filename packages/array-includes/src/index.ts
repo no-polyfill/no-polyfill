@@ -1,5 +1,5 @@
 export default (
-  arr: Array<any>,
-  searchElement: any,
-  fromIndex?: number | undefined,
+  arr: Array<unknown>,
+  searchElement: unknown,
+  fromIndex?: number,
 ): boolean => arr.includes(searchElement, fromIndex);
